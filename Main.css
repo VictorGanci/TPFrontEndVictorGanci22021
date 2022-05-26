@@ -1,0 +1,63 @@
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+
+.textba1{
+    position: absolute;
+    margin: auto;
+    left: 900px;
+    right: 0;
+    text-align: right;
+    top: 45%; /* Adjust this value to move the positioned div up and down */
+    color: #fff;
+    width: 26%; /* Set the width of the positioned div */
+}
+.btnorador{
+    padding-top: unset;
+    padding-bottom: unset;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 4px;
+}
+.backg1{
+    border-radius: 0px;
+    border: unset;
+    padding: 0px;
+}
+
+.card-img-overlay{
+    background-color: rgba(0,0,0, 0.5);
+}
+.ConfBsAs{
+    margin-top: 365px;
+    margin-right: 140px;
+}
+.BSAS{
+    text-align: right;
+}
+
+.nombreapellido{
+    padding: 14px;
+}
+.descripcion{
+    padding: 11px;
+    margin: auto;
+}
+.enviar{
+    width: 100%;
+    background-color: #96c93e;
+    border-color: #dde5cd;
+}
+.footer{
+    background-color: #1b4961;
+    height: auto;
+    align-items: center;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.footer > *{
+    width: 108px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
